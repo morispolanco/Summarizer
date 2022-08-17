@@ -3,20 +3,6 @@ import gateway
 
 import streamlit as st
 
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-import streamlit as st
-
-st.set_page_config(
-   page_title="Resumidor",
-   page_icon="🧊",
-   layout="wide",
-   initial_sidebar_state="collapsed",
-)
-
 def header():
     st.header('Resumidor')
     st.text('version 0 - Last update 08/08/2022')
