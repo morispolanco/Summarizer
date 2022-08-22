@@ -1,5 +1,5 @@
 import requests
-import os
+import nlpcloud
 
 TOKEN = os.getenv("TOKEN")
 
